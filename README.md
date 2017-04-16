@@ -2,7 +2,7 @@
 
 Playing around with Auth0 and Python.
 
-![Demo](https://cloud.githubusercontent.com/assets/12800/25068176/776c47de-2231-11e7-9950-114f21adc2a3.gif)
+<img src="https://cloud.githubusercontent.com/assets/12800/25068176/776c47de-2231-11e7-9950-114f21adc2a3.gif" width="450" align="right">
 
 To run it use:
 
