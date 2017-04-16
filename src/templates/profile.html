@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4 text-center">
+      <img src="{{ session.user_info.picture }}" class="img-circle">
+      <h2>{{ session.user_info.nickname }}</h2>
+      <h4>{{session.user_info.email }}</h4>
+      <hr />
+      <a href="/logout" class="btn btn-danger">
+        <span class="glyphicon glyphicon glyphicon-log-out" aria-hidden="true"></span> Logout
+      </a>
+    </div>
+  </div>
+{% endblock %}
